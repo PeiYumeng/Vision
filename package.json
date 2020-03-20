@@ -1,0 +1,25 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chart.js",
+  "dependencies": {
+    "@handsontable/react": "^3.1.2",
+    "echarts": "^4.7.0",
+    "handsontable": "^7.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeiYumeng/Vision.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeiYumeng/Vision/issues"
+  },
+  "homepage": "https://github.com/PeiYumeng/Vision#readme"
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  h3{
+    text-align: center;
+  }
+  .b1 {
+    width:500px;
+    height: 300px;
+    margin-left: 50px;
+    margin:0 auto;
+  }
+tr{
+    width:100px;
+    text-align: center;
+  }
+  .b2{
+    width: 700px;
+    height: 350px;
+    margin:0 auto;
+  }
