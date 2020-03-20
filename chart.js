@@ -12,9 +12,11 @@ $(function() {
           ['Visual Basic .Net', '6', '降', '-1.17%'],
           ['JavaScript', '7', '降', '-0.85%']
         ],
-      rowHeaders: true,
-      filters: true,
-      dropdownMenu: true,
+      contextMenu: true,          // 启用快捷菜单
+      manualRowResize : true,     // 允许行拖动  
+      manualColumnResize : true,  // 允许列拖动 
+      rowHeaders: false,
+      colWidths:200,
       colHeaders: [
           '语言名称',
           '排名',
