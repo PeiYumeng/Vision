@@ -6,16 +6,20 @@ html, body {
 }
   h3{
     text-align: center;
+    margin-left:100px;
+    display:'block'
   }
-tr{
-    text-align: center;
-  }
+
   .b1{
-    margin-left:300px
+   // margin-left:300px;
+    margin:0 auto;
+    width:500px;
+    height:200px
   }
   .b2{
     width: 700px;
     height: 350px;
-    margin:0 auto;
-    margin-top:20px;
+    //margin:0 auto;
+    margin-top:50px;
+    margin-left:400px
   }

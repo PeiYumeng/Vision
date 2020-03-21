@@ -12,11 +12,13 @@ $(function() {
           ['Visual Basic .Net', '6', '降', '-1.17%'],
           ['JavaScript', '7', '降', '-0.85%']
         ],
-      contextMenu: true,          // 启用快捷菜单
-      manualRowResize : true,     // 允许行拖动  
-      manualColumnResize : true,  // 允许列拖动 
+      contextMenu: true,          
+      manualRowResize : true,       
+      manualColumnResize : true,   
       rowHeaders: false,
       colWidths:200,
+      rowHeights:30,
+      className:'htCenter htMiddle',
       colHeaders: [
           '语言名称',
           '排名',
@@ -32,6 +34,9 @@ $(function() {
     tooltip: {
       trigger:'axis',
       formatter:'<span style="padding-left:8px">排名</span><br/>{b0}:{c0}'
+    },
+    grid:{
+      
     },
     legend: {
       data:['排名']
