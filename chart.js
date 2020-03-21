@@ -29,21 +29,24 @@ $(function() {
     title: {
       text: 'JavaScript语言排名变化'
     },
-    tooltip: {},
+    tooltip: {
+      trigger:'axis',
+      formatter:'<span style="padding-left:8px">排名</span><br/>{b0}:{c0}'
+    },
     legend: {
-      data:['信息量']
+      data:['排名']
     },
     xAxis: {
       data: [2000,2005,2010,2015,2020]
     },
     yAxis: {},
     series: [{
-      name: '信息量',
+      name: '排名',
       type: 'line',
-      smooth: 'true',
-      data:[6,9,8,8,7]
+      //smooth: 'true',
+      data:[6,9,8,8,7],
     }]
-  };
+  }
 
   myChart.setOption(option);
   return hot;
